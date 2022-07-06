@@ -11,21 +11,22 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 1400px;
-    height: 400px;
+    height: 550px;
     background-position: center;
     padding-top: 50px;
+    opacity: 0.8;
 
 }
 
 
 h1 {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 pre {
     color: white;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 500px;
 }
 
@@ -48,7 +49,7 @@ a {
 
 .background-text {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 115px;
 }
 
 .second-section {
@@ -154,4 +155,100 @@ input {
     padding-left: 10px;
     padding-top: 20px;
     padding-right: 10px;
+}
+
+#design-h1 {
+    color: black;
+}
+
+.forth-section {
+    margin-top: 70px;
+    display: flex;
+}
+
+.small-donation {
+    width: 50%;
+    margin-left: 220px;
+    margin-right: 50px;
+
+}
+
+#helping-image {
+    width: 420px;
+    height: 340px;
+    background-position: left;
+    margin-top: 35px;
+    margin-right: 80px;
+
+
+}
+
+#span2 {
+    color: rgb(240, 230, 92);
+}
+
+.sabbo {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700px;
+    color: black;
+}
+
+.get {
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+
+}
+
+.fifth-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 150px;
+}
+
+.div-box {
+    box-shadow: 10px 10px 40px white;
+    background: rgb(84, 161, 192);
+    padding: 50px 250px;
+}
+
+.div-box input {
+    font-size: 15px;
+    color: black;
+    padding: 4px 12px;
+    text-align: left;
+    border: none;
+}
+
+.div-box button {
+    font-size: 15px;
+    color: black;
+    background-color: rgb(223, 223, 13);
+    padding: 4px 8px;
+    border: none;
+}
+
+.footer-box {
+    height: 200px;
+    width: 1350px;
+    background-color: black;
+
+}
+
+.footer-box p {
+    color: rgb(84, 161, 192);
+    font-size: 18px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.footer-box copy {
+    color: white;
 }
