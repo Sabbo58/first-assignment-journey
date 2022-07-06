@@ -14,8 +14,9 @@ body {
     height: 400px;
     background-position: center;
     padding-top: 50px;
-    im
+
 }
+
 
 h1 {
     color: white;
@@ -25,6 +26,7 @@ h1 {
 pre {
     color: white;
     font-size: 17px;
+    font-weight: 500px;
 }
 
 span {
@@ -38,7 +40,7 @@ a {
     border: 3px solid rgb(84, 161, 192);
     background: linear-gradient(skyblue darkcyan);
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700px;
     font-family: arial;
     padding: 8px 20px;
@@ -68,6 +70,7 @@ a {
     border: 2px solid whitesmoke;
     border-radius: 10px;
     font-weight: 600px;
+    margin-right: 20px;
 
 }
 
@@ -77,13 +80,78 @@ a {
 }
 
 .extra {
-    border: 4px solid lightgray;
+    border: 4px solid lightgrey;
     border-radius: 10px;
     color: white;
     background-color: lightgray;
     font-weight: 700;
 }
 
-.h1 {
-    bord
+a:hover {
+    color: white;
+    background-color: darkslategray;
+    border: 3px solid darkslategray;
+}
+
+input {
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 15px;
+    border: 2px solid whitesmoke;
+    color: darkgray;
+
+}
+
+.sub-section {
+    margin-top: 70px;
+}
+
+.own-try {
+    text-align: center;
+    margin-left: 60px;
+}
+
+.section1 {
+    width: 50%;
+}
+
+.third-main-section {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 60px;
+
+
+}
+
+.third-section1 {
+
+    box-shadow: 10px 10px 40px white;
+    width: 100%;
+    margin-left: 18px;
+    background-color: rgb(223, 223, 161);
+    padding-left: 10px;
+    padding-top: 21px;
+    padding-right: 10px;
+
+}
+
+.third-section2 {
+    box-shadow: 10px 10px 40px white;
+    width: 100%;
+    margin-left: 18px;
+    background-color: rgb(179, 211, 224);
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.third-section3 {
+    box-shadow: 10px 10px 40px white;
+    width: 100%;
+    margin-left: 18px;
+    background-color: rgb(223, 223, 161);
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
 }
